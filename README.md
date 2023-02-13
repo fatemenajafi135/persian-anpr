@@ -62,7 +62,15 @@ Results will be placed on ```runs/detect/exp*```.
 
 ## **Wrap up for license plate recognition**
 
-**...**
+**using easyocr**
+
+change ```[...]``` in line *78* on file ```utils/plots.py``` to the *direct* path of ```Yekan.ttf``` on your system.
+
+``` shell
+python anpr.py --path2detect [PATH OF FILES] --detecttype [FILE TYPE] --imagename [IMAGE NAME] --videoname [VIDEO NAME] --weights weights/best.pt --savepath runs/recognize  --device cpu --imagesize 640
+#Example
+python anpr.py --path2detect ./to_detect --detecttype image --imagename plate.jpg
+```
 
 
 

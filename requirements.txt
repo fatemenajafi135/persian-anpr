@@ -38,3 +38,6 @@ thop  # FLOPs computation
 # pycocotools>=2.0  # COCO mAP
 roboflow
 gdown
+
+easyocr
+deep-sort-realtime
