@@ -1,0 +1,12 @@
+names:
+- license
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: anpr_iran-car
+  url: https://universe.roboflow.com/object-detection-8kjqa/anpr_iran-car/dataset/1
+  version: 1
+  workspace: object-detection-8kjqa
+test: ../test/images
+train: ANPR-1/train/images
+val: ANPR-1/valid/images
