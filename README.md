@@ -1,4 +1,4 @@
-# Automatically Number Plate Recognizition for Iranian(Persian) plates 
+# Automatic Number Plate Recognizition for Iranian(Persian) plates 
 
 
 ## **License plate detection**
@@ -45,14 +45,13 @@ cd ..
 detect license plates for the testset using model:
 ‍‍‍‍‍‍
 ``` shell
-# using your model
-python detect.py --weights runs/train/yolov7-license/weights/best.pt --conf 0.1 --source ./ANPR_Iran-car-1/test/images
-
 # using mine
-python detect.py --weights weights/best.pt --conf 0.1 --source ./ANPR_Iran-car-1/test/images
+python detect.py --weights [PATH TO WEIGHTS (.pt file)] --conf 0.1 --source [PATH TO A DIRECTORY OR A SINGLE IMAGE TO DETECT]
+# example using my model 
+python detect.py --weights weights/best.pt --conf 0.2 --source ./ANPR_Iran-car-1/test/images
 ```
 
-Results will be placed on ```runs/detect/exp/*```.
+Results will be placed on ```runs/detect/exp*```.
 
 
 ## **ocr**
