@@ -45,7 +45,6 @@ cd ..
 detect license plates for the testset using model:
 ‍‍‍‍‍‍
 ``` shell
-# using mine
 python detect.py --weights [PATH TO WEIGHTS (.pt file)] --conf 0.1 --source [PATH TO A DIRECTORY OR A SINGLE IMAGE TO DETECT]
 # example using my model 
 python detect.py --weights weights/best.pt --conf 0.2 --source ./ANPR_Iran-car-1/test/images
