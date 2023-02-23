@@ -55,9 +55,7 @@ Results will be placed on ```runs/detect/exp*```.
 
 ## **ocr**
 
-**dataset**
-
-**train model**
+[More on OCR ...](https://github.com/fatemenajafi135/persian-anpr/tree/main/ocr)
 
 
 ## **Wrap up for license plate recognition**
